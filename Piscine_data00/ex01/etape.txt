@@ -1,0 +1,6 @@
+docker pull dpage/pgadmin4
+docker run -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' -d dpage/pgadmin4
+host.docker.internal
+mots de pass : pass
+
+ex02 and ex03 Select * FROM data_2022_dec dans 
